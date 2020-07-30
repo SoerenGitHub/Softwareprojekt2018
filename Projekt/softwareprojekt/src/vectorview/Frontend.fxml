@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="p_main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="1127.0" stylesheets="@Frontend_style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vectorview.Backend">
+   <children>
+      <SplitPane fx:id="splp" dividerPositions="0.32622222222222225" layoutY="18.0" prefHeight="384.0" prefWidth="600.0" style="-fx-background-color: #4D4D4D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane fx:id="p_lefthandside" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="559.0" prefWidth="430.0">
+               <children>
+                  <ChoiceBox fx:id="cb_objectname" layoutX="139.0" layoutY="38.0" prefHeight="47.0" prefWidth="30.0" AnchorPane.leftAnchor="139.0" />
+                  <Slider fx:id="sl_visibility" layoutX="16.0" layoutY="133.0" prefHeight="14.0" prefWidth="335.0" AnchorPane.leftAnchor="16.0" />
+                  <ChoiceBox fx:id="cb_form" layoutX="16.0" layoutY="165.0" prefHeight="47.0" prefWidth="335.0" AnchorPane.leftAnchor="16.0" />
+                  <ToggleButton fx:id="tb_visibility" layoutX="23.0" layoutY="94.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="328.0" stylesheets="@Frontend_style.css" text="Sichtbarkeit" />
+                  <Button fx:id="btn_refresh" layoutX="16.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #616161; -fx-text-fill: white;" text="Anwenden" />
+                   <Button fx:id="btn_delete" layoutX="26.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" style="-fx-text-fill: white; -fx-background-color: #804755;" text="Löschen" AnchorPane.leftAnchor="250.0" />
+                   <TextField fx:id="tf_objectname" layoutX="16.0" layoutY="38.0" prefHeight="47.0" prefWidth="123.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <ChoiceBox fx:id="cb_object" layoutX="211.0" layoutY="38.0" prefHeight="47.0" prefWidth="140.0" />
+                  <AnchorPane fx:id="p_inputtype" layoutX="15.0" layoutY="219.0" prefHeight="101.0" prefWidth="335.0">
+                     <children>
+
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="p_righthandside" minHeight="0.0" minWidth="0.0" prefHeight="559.0" prefWidth="645.0">
+               <children>
+                  <Pane layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="65.0">
+                     <children>
+                        <Line endY="65.0" layoutX="35.0" stroke="#2a42ff"/>
+                        <Line endX="65.0" endY="35.0" startY="35.0" stroke="RED" />
+                        <Line endX="56.0" endY="15.0" startX="16.0" startY="53.0" stroke="#00ff2f">
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis></Line>
+                        <Label layoutX="26.0" text="Z" textFill="#2a42ff" />
+                        <Label layoutX="53.0" layoutY="35.0" text="X" textFill="RED" />
+                        <Label layoutX="57.0" layoutY="1.0" text="Y" textFill="#00ff2f" />
+                     </children>
+                  </Pane>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="1.0" />
+               </opaqueInsets></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

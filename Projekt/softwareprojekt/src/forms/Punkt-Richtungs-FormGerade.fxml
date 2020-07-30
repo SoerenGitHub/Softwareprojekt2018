@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="p_inputtype" layoutX="0" layoutY="0" prefHeight="101.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.Classes.PunktRichtungsFormGerade">
+<children>
+
+    <ImageView fx:id="pic_form" fitHeight="85.0" fitWidth="335.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0">
+        <image>
+            <Image fx:id="img_form" url="@../materials/Punkt-Richtungs-FormGerade.png" />
+        </image>
+    </ImageView>
+    <TextField fx:id="tf_xr1" alignment="CENTER" layoutX="104.0" layoutY="15.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="15.0" />
+    <TextField fx:id="tf_yr1" alignment="CENTER" layoutX="104.0" layoutY="40.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="40.0" />
+    <TextField fx:id="tf_zr1" alignment="CENTER" layoutX="104.0" layoutY="65.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="65.0" />
+    <TextField fx:id="tf_xa" alignment="CENTER" layoutX="216.0" layoutY="15.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="216.0" AnchorPane.topAnchor="15.0" />
+    <TextField fx:id="tf_ya" alignment="CENTER" layoutX="216.0" layoutY="40.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="216.0" AnchorPane.topAnchor="40.0" />
+    <TextField fx:id="tf_za" alignment="CENTER" layoutX="216.0" layoutY="65.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="216.0" AnchorPane.topAnchor="65.0" />
+    <TextField fx:id="tf_lamda" alignment="CENTER" layoutX="101.0" layoutY="38.0" prefHeight="25.0" prefWidth="25.0" AnchorPane.leftAnchor="178.0" AnchorPane.topAnchor="42.0" />
+</children>
+</AnchorPane>

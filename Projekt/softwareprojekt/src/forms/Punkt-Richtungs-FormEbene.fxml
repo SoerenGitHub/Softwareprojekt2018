@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="p_inputtype" layoutX="0" layoutY="0" prefHeight="101.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.Classes.PunktRichtungsFormEbene">
+<children>
+
+    <ImageView fx:id="pic_form" fitHeight="85.0" fitWidth="335.0" layoutX="8.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+        <image>
+            <Image fx:id="img_form" url="@../materials/Punkt-Richtungs-FormEbene.png" />
+        </image>
+    </ImageView>
+    <TextField fx:id="tf_xr1" alignment="CENTER" layoutX="93.0" layoutY="14.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="91.0" AnchorPane.topAnchor="22.0" />
+    <TextField fx:id="tf_yr1" alignment="CENTER" layoutX="93.0" layoutY="39.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="91.0" AnchorPane.topAnchor="47.0" />
+    <TextField fx:id="tf_zr1" alignment="CENTER" layoutX="93.0" layoutY="64.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="91.0" AnchorPane.topAnchor="72.0" />
+    <TextField fx:id="tf_xa" alignment="CENTER" layoutX="191.0" layoutY="14.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="22.0" />
+    <TextField fx:id="tf_ya" alignment="CENTER" layoutX="191.0" layoutY="39.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="47.0" />
+    <TextField fx:id="tf_za" alignment="CENTER" layoutX="191.0" layoutY="64.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="72.0" />
+    <TextField fx:id="tf_xb" alignment="CENTER" layoutX="289.0" layoutY="15.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="303.0" AnchorPane.topAnchor="22.0" />
+    <TextField fx:id="tf_yb" alignment="CENTER" layoutX="289.0" layoutY="40.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="303.0" AnchorPane.topAnchor="47.0" />
+    <TextField fx:id="tf_zb" alignment="CENTER" layoutX="289.0" layoutY="65.0" prefHeight="25.0" prefWidth="32.0" AnchorPane.leftAnchor="303.0" AnchorPane.topAnchor="72.0" />
+    <TextField fx:id="tf_lamda" alignment="CENTER" layoutX="101.0" layoutY="38.0" prefHeight="25.0" prefWidth="25.0" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="49.0" />
+    <TextField fx:id="tf_mu" alignment="CENTER" layoutX="145.0" layoutY="128.0" prefHeight="25.0" prefWidth="25.0" AnchorPane.leftAnchor="266.0" AnchorPane.topAnchor="49.0" />
+</children>
+</AnchorPane>

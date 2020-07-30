@@ -1,0 +1,91 @@
+#splp{
+    -fx-background-color: #4D4D4D;
+}
+
+.split-pane-divider {
+    -fx-background-color: transparent;
+}
+
+ChoiceBox{
+    -fx-background-color: #616161;
+    -fx-font-size: 15pt;
+    -fx-border-width: 0 0 3px 0;
+    -fx-border-color: #3D3D3D;
+}
+
+ChoiceBox .arrow{
+    -fx-background-color: white;
+}
+
+ChoiceBox .label{
+    -fx-text-fill: white;
+
+}
+
+ChoiceBox .menu-item{
+    -fx-background-color: #3D3D3D;
+    -fx-border-width: 3px;
+    -fx-border-color: transparent;
+}
+
+ChoiceBox .context-menu{
+    -fx-background-color: transparent;
+}
+
+
+#tb_visibility{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 3px 0;
+    -fx-border-color: green;
+    -fx-font-size: 13pt;
+    -fx-padding: 2px 2px 0px 2px;
+}
+
+#sl_visibility .track {
+     -fx-control-inner-background: transparent;
+     -fx-background-color: #616161;
+ }
+
+#sl_visibility .axis{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 9pt;
+}
+
+
+#sl_visibility .thumb{
+    -fx-background-color: white;
+    -fx-font-size: 9pt;
+    -fx-border-radius: 0px;
+}
+
+TextField{
+   -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 0;
+}
+
+#cb_objectname{
+    -fx-text-fill: transparent;
+    -fx-background-color: #616161;
+}
+
+#cb_objectname .label{
+    -fx-text-fill: transparent;
+}
+
+#cb_objectname .context-menu .label{
+    -fx-text-fill: white;
+}
+
+#tf_objectname{
+    -fx-background-color: #616161;
+    -fx-padding: 3px 5px 3px 5px;
+    -fx-border-width: 0 0 3px 0;
+    -fx-border-color: #3D3D3D;
+}
+
+#p_righthandside{
+    -fx-background-color: #616161;
+}
